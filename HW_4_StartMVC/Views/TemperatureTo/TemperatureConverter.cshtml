@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Конвертер температур</title>
+</head>
+<body>
+    <form method="post" action="~/TemperatureTo/convert">
+        <label>Введите температуру:</label><br />
+        <input type="number" name="temperature" value="0" required pattern="^[ 0-9]+$"/><br />        
+        <input type="submit" value="Отправить" />
+    </form>
+</body>
+</html>
