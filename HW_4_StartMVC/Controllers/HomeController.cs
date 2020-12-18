@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using HW_4_StartMVC.Services;
 
 namespace HW_4_StartMVC.Controllers
 {
@@ -21,7 +22,7 @@ namespace HW_4_StartMVC.Controllers
         public IActionResult Index()
         {
             return View();
-        }
+        }        
 
         public IActionResult Privacy()
         {

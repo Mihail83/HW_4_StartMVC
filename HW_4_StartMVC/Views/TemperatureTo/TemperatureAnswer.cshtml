@@ -1,0 +1,28 @@
+﻿
+@{
+}
+
+
+<html>
+<head>
+    <meta content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <h1>Результат</h1>
+    <form method="post" action="~/TemperatureTo/SaveAndSend">
+        <input type="text" name="result" value="@ViewBag.answer" readonly /> <br />
+
+        <input type="radio" name="chooseType" value="txt" checked ="checked" /> 
+        <span>txt</span><br />
+        <input type="radio" name="chooseType" value="zip" /> 
+        <span>zip</span><br />
+        <input type="radio" name="chooseType" value="byteStream" /> 
+        <span>ByteStream</span><br />
+        <input type="submit" value="Скачать" />
+    </form>
+    <br />
+    <br />
+    <a href ="~/TemperatureTo/convert">Back </a>
+</body>
+</html>
