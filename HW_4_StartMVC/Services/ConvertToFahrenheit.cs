@@ -16,7 +16,7 @@ namespace HW_4_StartMVC.Services
         }
         public double Convert(double temp)
         {
-            return temp*1.8 +32;
+            return temp*9/5 +32;
         }
     }
 }
